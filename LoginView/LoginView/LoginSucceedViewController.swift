@@ -8,7 +8,7 @@ class LoginSucceedViewController: UIViewController {
     private let container: UIView = {
         let view = UIView()
         view.backgroundColor = .white
-        view.layer.cornerRadius = 10
+        view.layer.cornerRadius = 11
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
