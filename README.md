@@ -21,7 +21,7 @@ Crafts created through the journey of learning Swift
 
 
 <p float="left">
-  <img src="https://github.com/puretension/SwiftCrafts/blob/main/assets/106448279/86033f52-c7f8-4756-a0f6-cd04852995eb" width="200" hspace="10">
-  <img src="https://github.com/puretension/SwiftCrafts/blob/main/assets/106448279/5338d0e6-b1ac-4673-890b-8d21a082df6d" width="200" hspace="10">
+  <img src="https://github.com/puretension/SwiftCrafts/assets/106448279/86033f52-c7f8-4756-a0f6-cd04852995eb" width="200" hspace="10">
+  <img src="https://github.com/puretension/SwiftCrafts/assets/106448279/5338d0e6-b1ac-4673-890b-8d21a082df6d" width="200" hspace="10">
 </p>
 
