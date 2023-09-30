@@ -10,5 +10,18 @@ Crafts created through the journey of learning Swift
 <p float="left">
   <img src="https://github.com/puretension/SwiftCrafts/assets/106448279/803560fa-4f81-4b3d-8226-107d30b78c16" width="200" hspace="10">
   <img src="https://github.com/puretension/SwiftCrafts/assets/106448279/62e15f91-58bc-407f-bb15-1805e221ac50" width="200" hspace="10">
-  <img src="https://github.com/puretension/SwiftCrafts/assets/106448279/85a41a7e-1064-4399-ac73-406cee58a615" width="200" hspace="10">
 </p>
+
+## 2. BMICalculator
+1. 코드만으로 UI
+2. UIView대신 UIStackView선언, addArrangedSubView로 편하게 오토레이아웃 설정
+3. 조건부 - switch문(BMI 계산과 색깔), 텍스트필드 입력 조건 처리(숫자, '.'까지 가능하게)
+4. present로 화면이동, dismiss로 back
+5.viewWillAppear(앱의 생명주기 시작점, 초기화면 구성에 유용)
+
+
+<p float="left">
+  <img src="https://github.com/puretension/SwiftCrafts/blob/main/assets/106448279/86033f52-c7f8-4756-a0f6-cd04852995eb.png" width="200" hspace="10">
+  <img src="https://github.com/puretension/SwiftCrafts/blob/main/assets/106448279/5338d0e6-b1ac-4673-890b-8d21a082df6d.png" width="200" hspace="10">
+</p>
+
