@@ -28,4 +28,12 @@
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/d3c68ac2-160b-4c21-bee3-8158ca47ac16">
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 22 30" src="https://github.com/puretension/SwiftCrafts/assets/106448279/6d837fe4-7bf8-4e7e-a108-5b69ed5f6d65">
 
+## 4. WarmUp(SwiftUI) - 2024/01/14
+- ListView를 통해 적용하는 데이터 모델링
+- ⭐️Hashable, NavigationStack, List, ForEach, Section⭐️
+- ⭐️@State와 Binding 데이터의 상태를 나타내는 State, State에 $를 붙이면 Binding
+- (두 State가 연결되어있을때 = 바인딩되어 있을때) 화면 재빌드!
+
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/99244a77-12b6-4387-9fbe-446ecdfbfeb5">
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 22 30" src="https://github.com/puretension/SwiftCrafts/assets/106448279/5acf2657-1b0b-49f1-9de8-c1baed5fc45c">
 
