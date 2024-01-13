@@ -9,6 +9,9 @@ import SwiftUI
 
 struct OnBoardingView: View {
     var body: some View {
+        // MARK: - 04. 온보딩 화면 만들어보기
+
+
         VStack(content: {
             Text("What's New in Photos")
                 .font(.largeTitle)

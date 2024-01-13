@@ -10,6 +10,8 @@
 		B708DD452B52C2C500EB3D15 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD442B52C2C500EB3D15 /* LayoutView.swift */; };
 		B708DD4B2B52C54400EB3D15 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD4A2B52C54400EB3D15 /* MyButton.swift */; };
 		B708DD4D2B52C8F400EB3D15 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD4C2B52C8F400EB3D15 /* OnBoardingView.swift */; };
+		B74943282B52F56E0059196E /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74943272B52F56E0059196E /* ListLoop.swift */; };
+		B749432B2B530A4A0059196E /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749432A2B530A490059196E /* Setting.swift */; };
 		B7F262CB2B4BBB86006611ED /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F262CA2B4BBB86006611ED /* WarmUpApp.swift */; };
 		B7F262CD2B4BBB86006611ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F262CC2B4BBB86006611ED /* ContentView.swift */; };
 		B7F262CF2B4BBB88006611ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F262CE2B4BBB88006611ED /* Assets.xcassets */; };
@@ -20,6 +22,9 @@
 		B708DD442B52C2C500EB3D15 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		B708DD4A2B52C54400EB3D15 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		B708DD4C2B52C8F400EB3D15 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		B74943272B52F56E0059196E /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
+		B74943292B5303C80059196E /* memo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = memo.md; sourceTree = "<group>"; };
+		B749432A2B530A490059196E /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		B7F262C72B4BBB86006611ED /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F262CA2B4BBB86006611ED /* WarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpApp.swift; sourceTree = "<group>"; };
 		B7F262CC2B4BBB86006611ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +53,15 @@
 			path = "CH1-Layout";
 			sourceTree = "<group>";
 		};
+		B74943262B52F51E0059196E /* CH2-Listview */ = {
+			isa = PBXGroup;
+			children = (
+				B74943272B52F56E0059196E /* ListLoop.swift */,
+				B749432A2B530A490059196E /* Setting.swift */,
+			);
+			path = "CH2-Listview";
+			sourceTree = "<group>";
+		};
 		B7F262BE2B4BBB86006611ED = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +81,13 @@
 		B7F262C92B4BBB86006611ED /* WarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				B74943262B52F51E0059196E /* CH2-Listview */,
 				B7F262CC2B4BBB86006611ED /* ContentView.swift */,
 				B7F262CA2B4BBB86006611ED /* WarmUpApp.swift */,
 				B708DD492B52C36400EB3D15 /* CH1-Layout */,
 				B7F262CE2B4BBB88006611ED /* Assets.xcassets */,
 				B7F262D02B4BBB88006611ED /* Preview Content */,
+				B74943292B5303C80059196E /* memo.md */,
 			);
 			path = WarmUp;
 			sourceTree = "<group>";
@@ -157,6 +173,8 @@
 				B7F262CD2B4BBB86006611ED /* ContentView.swift in Sources */,
 				B7F262CB2B4BBB86006611ED /* WarmUpApp.swift in Sources */,
 				B708DD452B52C2C500EB3D15 /* LayoutView.swift in Sources */,
+				B74943282B52F56E0059196E /* ListLoop.swift in Sources */,
+				B749432B2B530A4A0059196E /* Setting.swift in Sources */,
 				B708DD4D2B52C8F400EB3D15 /* OnBoardingView.swift in Sources */,
 				B708DD4B2B52C54400EB3D15 /* MyButton.swift in Sources */,
 			);
