@@ -37,3 +37,22 @@
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/99244a77-12b6-4387-9fbe-446ecdfbfeb5">
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 22 30" src="https://github.com/puretension/SwiftCrafts/assets/106448279/5acf2657-1b0b-49f1-9de8-c1baed5fc45c">
 
+## 5. WarmUp(SwiftUI) - 2024/01/14
+### ⭐️Navigator&TabView
+#### Modal
+- @Binding, @State, Button.sheet(isPresented: $showModal)
+
+#### Navigation
+- 키워드는 NavaigationStack(위에 쌓인다), NavigationLink로 이동
+- toolbar-ToolBarItem을 통한 이동
+
+#### TabView
+- 다양한 내용이 하나의 앱에 들어가야 할 때 화면을 구상후 탭을 나눈다(one 탭 = one 화면)
+- TabView{ View1.badge(1). tabItem{}}.tabViewStyle
+  
+#### if let 구문을 통한 옵셔널 바인딩(memo 참고)
+
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 22 30" src="https://github.com/puretension/SwiftCrafts/assets/106448279/f2a18628-ef42-429f-a0a5-4f86f291e91e">
+
+
+
