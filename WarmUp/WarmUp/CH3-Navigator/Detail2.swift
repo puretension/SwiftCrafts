@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct Detail2: View {
+    @Binding var isPresented2: Bool
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Detail Page")
+        Button {
+            isPresented2 = false
+        } label: {
+            Text("Detail Down")
+        }
+
     }
 }
 
 #Preview {
-    Detail2()
+    Detail2(isPresented2: .constant(true))
 }

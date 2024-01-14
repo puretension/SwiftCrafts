@@ -60,86 +60,82 @@ struct Setting: View {
                         }
                     }
                 }
-                
-                
-                
-                //                Section{
-                //                    Label(
-                //                        title: { Text("스크린타임") },
-                //                        icon: { Image(systemName: "hourglass")
-                //                                .resizable()
-                //                                .scaledToFit()
-                //                                .frame(width: 14)
-                //                                .padding(.all,3)
-                //                                .background(.purple)
-                //                                .foregroundColor(.white)
-                //                        }
-                //                    )
-                //                    Label(
-                //                        title: { Text("동작버튼") },
-                //                        icon: { Image(systemName: "hand.point.up.left")
-                //                                .background(.blue)
-                //                                .foregroundColor(.white)
-                //                        }
-                //                    )
-                //                }
-                //
-                //                Section{
-                //                    Label(
-                //                        title: { Text("일반") },
-                //                        icon: { Image(systemName: "gear")
-                //                                .resizable()
-                //                                .scaledToFit()
-                //                                .frame(width: 20)
-                //                                .padding(.all, 5)
-                //                                .background(.gray)
-                //                                .foregroundColor(.white)
-                //                                .cornerRadius(5)
-                //                        }
-                //                    )
-                //
-                //                    Label(
-                //                        title: { Text("손쉬운 사용") },
-                //                        icon: { Image(systemName: "figure.child.circle")
-                //                                .resizable()
-                //                                .scaledToFit()
-                //                                .frame(width: 20,height: 20)
-                //                                .padding(.all, 3)
-                //                                .background(.blue)
-                //                                .foregroundColor(.white)
-                //                                .cornerRadius(5)
-                //                        }
-                //                    )
-                //
-                //                    Label(
-                //                        title: { Text("개인정보 보호 및 보안") },
-                //                        icon: { Image(systemName: "hand.raised.fill")
-                //                                .resizable()
-                //                                .scaledToFit()
-                //                                .frame(width: 20,height: 20)
-                //                                .padding(.all, 3)
-                //                                .background(.blue)
-                //                                .foregroundColor(.white)
-                //                                .cornerRadius(5)
-                //                        }
-                //                    )
-                //                }
-                //
-                //                Section{
-                //                    Label(
-                //                        title: { Text("암호") },
-                //                        icon: { Image(systemName: "key.fill")
-                //                                .resizable()
-                //                                .scaledToFit()
-                //                                .frame(width: 20,height: 20)
-                //                                .padding(.all, 3)
-                //                                .background(.gray)
-                //                                .foregroundColor(.white)
-                //                                .cornerRadius(5)}
-                //                    )
-                //                }
-                
             }
+            //                Section{
+            //                    Label(
+            //                        title: { Text("스크린타임") },
+            //                        icon: { Image(systemName: "hourglass")
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 14)
+            //                                .padding(.all,3)
+            //                                .background(.purple)
+            //                                .foregroundColor(.white)
+            //                        }
+            //                    )
+            //                    Label(
+            //                        title: { Text("동작버튼") },
+            //                        icon: { Image(systemName: "hand.point.up.left")
+            //                                .background(.blue)
+            //                                .foregroundColor(.white)
+            //                        }
+            //                    )
+            //                }
+            //
+            //                Section{
+            //                    Label(
+            //                        title: { Text("일반") },
+            //                        icon: { Image(systemName: "gear")
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 20)
+            //                                .padding(.all, 5)
+            //                                .background(.gray)
+            //                                .foregroundColor(.white)
+            //                                .cornerRadius(5)
+            //                        }
+            //                    )
+            //
+            //                    Label(
+            //                        title: { Text("손쉬운 사용") },
+            //                        icon: { Image(systemName: "figure.child.circle")
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 20,height: 20)
+            //                                .padding(.all, 3)
+            //                                .background(.blue)
+            //                                .foregroundColor(.white)
+            //                                .cornerRadius(5)
+            //                        }
+            //                    )
+            //
+            //                    Label(
+            //                        title: { Text("개인정보 보호 및 보안") },
+            //                        icon: { Image(systemName: "hand.raised.fill")
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 20,height: 20)
+            //                                .padding(.all, 3)
+            //                                .background(.blue)
+            //                                .foregroundColor(.white)
+            //                                .cornerRadius(5)
+            //                        }
+            //                    )
+            //                }
+            //
+            //                Section{
+            //                    Label(
+            //                        title: { Text("암호") },
+            //                        icon: { Image(systemName: "key.fill")
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 20,height: 20)
+            //                                .padding(.all, 3)
+            //                                .background(.gray)
+            //                                .foregroundColor(.white)
+            //                                .cornerRadius(5)}
+            //                    )
+            //                }
             .navigationTitle("설정")
         }
         
@@ -149,3 +145,4 @@ struct Setting: View {
 #Preview {
     Setting()
 }
+

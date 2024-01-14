@@ -10,6 +10,16 @@
 		B708DD452B52C2C500EB3D15 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD442B52C2C500EB3D15 /* LayoutView.swift */; };
 		B708DD4B2B52C54400EB3D15 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD4A2B52C54400EB3D15 /* MyButton.swift */; };
 		B708DD4D2B52C8F400EB3D15 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708DD4C2B52C8F400EB3D15 /* OnBoardingView.swift */; };
+		B74721A52B538686001FC80C /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721A42B538686001FC80C /* Modal.swift */; };
+		B74721A72B5387C4001FC80C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721A62B5387C4001FC80C /* Detail.swift */; };
+		B74721A92B538A16001FC80C /* Modal2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721A82B538A16001FC80C /* Modal2.swift */; };
+		B74721AB2B538A98001FC80C /* Detail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721AA2B538A98001FC80C /* Detail2.swift */; };
+		B74721AD2B538D5F001FC80C /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721AC2B538D5F001FC80C /* Navigation.swift */; };
+		B74721AF2B539A51001FC80C /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721AE2B539A51001FC80C /* MyTabView.swift */; };
+		B74721B12B539D25001FC80C /* MyTabViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721B02B539D25001FC80C /* MyTabViewDetail.swift */; };
+		B74721B32B53A1A1001FC80C /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721B22B53A1A1001FC80C /* MyApp.swift */; };
+		B74721B62B53A83C001FC80C /* FirstList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721B52B53A83C001FC80C /* FirstList.swift */; };
+		B74721B82B53A8C2001FC80C /* OnboardingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74721B72B53A8C2001FC80C /* OnboardingSample.swift */; };
 		B74943282B52F56E0059196E /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74943272B52F56E0059196E /* ListLoop.swift */; };
 		B749432B2B530A4A0059196E /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749432A2B530A490059196E /* Setting.swift */; };
 		B7F262CB2B4BBB86006611ED /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F262CA2B4BBB86006611ED /* WarmUpApp.swift */; };
@@ -22,6 +32,16 @@
 		B708DD442B52C2C500EB3D15 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		B708DD4A2B52C54400EB3D15 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		B708DD4C2B52C8F400EB3D15 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		B74721A42B538686001FC80C /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		B74721A62B5387C4001FC80C /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		B74721A82B538A16001FC80C /* Modal2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal2.swift; sourceTree = "<group>"; };
+		B74721AA2B538A98001FC80C /* Detail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail2.swift; sourceTree = "<group>"; };
+		B74721AC2B538D5F001FC80C /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		B74721AE2B539A51001FC80C /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		B74721B02B539D25001FC80C /* MyTabViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabViewDetail.swift; sourceTree = "<group>"; };
+		B74721B22B53A1A1001FC80C /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		B74721B52B53A83C001FC80C /* FirstList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstList.swift; sourceTree = "<group>"; };
+		B74721B72B53A8C2001FC80C /* OnboardingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSample.swift; sourceTree = "<group>"; };
 		B74943272B52F56E0059196E /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 		B74943292B5303C80059196E /* memo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = memo.md; sourceTree = "<group>"; };
 		B749432A2B530A490059196E /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
@@ -53,6 +73,31 @@
 			path = "CH1-Layout";
 			sourceTree = "<group>";
 		};
+		B74721A32B538666001FC80C /* CH3-Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				B74721B42B53A823001FC80C /* MyApp */,
+				B74721A42B538686001FC80C /* Modal.swift */,
+				B74721A62B5387C4001FC80C /* Detail.swift */,
+				B74721A82B538A16001FC80C /* Modal2.swift */,
+				B74721AA2B538A98001FC80C /* Detail2.swift */,
+				B74721AC2B538D5F001FC80C /* Navigation.swift */,
+				B74721AE2B539A51001FC80C /* MyTabView.swift */,
+				B74721B02B539D25001FC80C /* MyTabViewDetail.swift */,
+			);
+			path = "CH3-Navigator";
+			sourceTree = "<group>";
+		};
+		B74721B42B53A823001FC80C /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				B74721B22B53A1A1001FC80C /* MyApp.swift */,
+				B74721B52B53A83C001FC80C /* FirstList.swift */,
+				B74721B72B53A8C2001FC80C /* OnboardingSample.swift */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
 		B74943262B52F51E0059196E /* CH2-Listview */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,7 @@
 		B7F262C92B4BBB86006611ED /* WarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				B74721A32B538666001FC80C /* CH3-Navigator */,
 				B74943262B52F51E0059196E /* CH2-Listview */,
 				B7F262CC2B4BBB86006611ED /* ContentView.swift */,
 				B7F262CA2B4BBB86006611ED /* WarmUpApp.swift */,
@@ -172,11 +218,21 @@
 			files = (
 				B7F262CD2B4BBB86006611ED /* ContentView.swift in Sources */,
 				B7F262CB2B4BBB86006611ED /* WarmUpApp.swift in Sources */,
+				B74721AF2B539A51001FC80C /* MyTabView.swift in Sources */,
+				B74721A72B5387C4001FC80C /* Detail.swift in Sources */,
+				B74721AD2B538D5F001FC80C /* Navigation.swift in Sources */,
+				B74721B12B539D25001FC80C /* MyTabViewDetail.swift in Sources */,
 				B708DD452B52C2C500EB3D15 /* LayoutView.swift in Sources */,
+				B74721A52B538686001FC80C /* Modal.swift in Sources */,
+				B74721B32B53A1A1001FC80C /* MyApp.swift in Sources */,
 				B74943282B52F56E0059196E /* ListLoop.swift in Sources */,
+				B74721B82B53A8C2001FC80C /* OnboardingSample.swift in Sources */,
 				B749432B2B530A4A0059196E /* Setting.swift in Sources */,
 				B708DD4D2B52C8F400EB3D15 /* OnBoardingView.swift in Sources */,
+				B74721A92B538A16001FC80C /* Modal2.swift in Sources */,
 				B708DD4B2B52C54400EB3D15 /* MyButton.swift in Sources */,
+				B74721B62B53A83C001FC80C /* FirstList.swift in Sources */,
+				B74721AB2B538A98001FC80C /* Detail2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

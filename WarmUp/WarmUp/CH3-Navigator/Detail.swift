@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct Detail: View {
+    
+    @Binding var isPresented: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("모달 페이지 입니다.")
+        Button {
+            isPresented = false
+        } label: {
+            Text("닫기")
+        }
+
     }
 }
 
 #Preview {
-    Detail()
+    Detail(isPresented: .constant(true))
 }

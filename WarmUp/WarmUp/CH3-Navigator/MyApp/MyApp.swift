@@ -11,35 +11,36 @@ struct MyApp: View {
     @State var showModal: Bool = false
     var body: some View {
         TabView {
-            NavigationStack{
-                List{
-                    NavigationLink {
-                        Text("첫 번째 하위페이지입니다.")
-                    } label: {
-                        Text("첫 번째 하위페이지")
-                    }
-                    NavigationLink {
-                        Text("두 번째 하위페이지입니다.")
-                    } label: {
-                        Text("두 번째 하위페이지")
-                    }
-                    NavigationLink {
-                        Text("세 번째 하위페이지입니다.")
-                    } label: {
-                        Text("세 번째 하위페이지")
-                    }
-                    NavigationLink {
-                        Text("네 번째 하위페이지입니다.")
-                    } label: {
-                        Text("네 번째 하위페이지")
-                    }
-                    
-//                    Text("첫 번째 하위페이지")
-//                    Text("두 번째 하위페이지")
-//                    Text("세 번째 하위페이지")
-//                    Text("네 번째 하위페이지")
-                }.navigationTitle("리스트")
-            }
+//            NavigationStack{
+//                List{
+//                    NavigationLink {
+//                        Text("첫 번째 하위페이지입니다.")
+//                    } label: {
+//                        Text("첫 번째 하위페이지")
+//                    }
+//                    NavigationLink {
+//                        Text("두 번째 하위페이지입니다.")
+//                    } label: {
+//                        Text("두 번째 하위페이지")
+//                    }
+//                    NavigationLink {
+//                        Text("세 번째 하위페이지입니다.")
+//                    } label: {
+//                        Text("세 번째 하위페이지")
+//                    }
+//                    NavigationLink {
+//                        Text("네 번째 하위페이지입니다.")
+//                    } label: {
+//                        Text("네 번째 하위페이지")
+//                    }
+//                    
+////                    Text("첫 번째 하위페이지")
+////                    Text("두 번째 하위페이지")
+////                    Text("세 번째 하위페이지")
+////                    Text("네 번째 하위페이지")
+//                }.navigationTitle("리스트")
+//            }
+            FirstList()
                 .tabItem {
                     Label("first", systemImage: "tray.and.arrow.down.fill")
                 }
@@ -59,28 +60,33 @@ struct MyApp: View {
         .sheet(isPresented: $showModal, 
                content: {
             TabView{
-                ZStack{
-                    Color.blue.ignoresSafeArea()
-                    Text("온보딩1")
-                }
-                ZStack{
-                    Color.yellow.ignoresSafeArea()
-                    Text("온보딩2")
-                }
-                ZStack{
-                    Color.gray.ignoresSafeArea()
-                    VStack{
-                        Text("온보딩3")
-                        Button(action: {
-                            showModal = false
-                        }, label: {
-                            Text("Start")
-                                .font(.body)
-                                .foregroundColor(Color.white)
-                                
-                        })
-                    }
-                }
+                OnboardingSample()
+                OnboardingSample(title: "온보딩1",backgroundColor: .yellow)
+                OnboardingSample(title: "온보딩2")
+                OnboardingSample(title: "온보딩3", backgroundColor: .gray, showModal: .init($showModal))
+
+//                ZStack{
+//                    Color.blue.ignoresSafeArea()
+//                    Text("온보딩1")
+//                }
+//                ZStack{
+//                    Color.yellow.ignoresSafeArea()
+//                    Text("온보딩2")
+//                }
+//                ZStack{
+//                    Color.gray.ignoresSafeArea()
+//                    VStack{
+//                        Text("온보딩3")
+//                        Button(action: {
+//                            showModal = false
+//                        }, label: {
+//                            Text("Start")
+//                                .font(.body)
+//                                .foregroundColor(Color.white)
+//                                
+//                        })
+//                    }
+//                }
             }
             .tabViewStyle(.page(indexDisplayMode: .always))
         })
