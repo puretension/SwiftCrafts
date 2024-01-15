@@ -1,7 +1,7 @@
 # 🍎 SwiftCrafts
-### Crafts created through the journey of learning Swift & SwiftUI
+### Crafts created through the journey of learning UIKit & SwiftUI
 
-## 1. LoginView(Swift) - 2023/10/11
+## 1. LoginView(UIKit) - 2023/10/11
 - 코드만으로 로그인 화면 UI 만들기(NSLayoutConstraint로 정리)
 - 텍스트필드 동작 감지 UI 변경(addTarget)
 - selector, @objc 어노테이션, UITextFieldDelegate extension
@@ -11,7 +11,7 @@
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 25 18" src="https://github.com/puretension/SwiftCrafts/assets/106448279/dcc0715f-143b-4ec2-972e-fbd5f5a0119b">
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 25 42" src="https://github.com/puretension/SwiftCrafts/assets/106448279/5823a3b3-7943-4f81-b023-7d1e711da93e">
 
-## 2. BIMCalculator(Swift)- 2023/10/12
+## 2. BIMCalculator(UIKit) - 2023/10/12
 - UIStackView를 활용한 레이아웃 구성
 - 텍스트필드 동작 감지 UI 변경(addTarget)
 - UITextFieldDelegate 프로토콜을 활용하여 텍스트 필드의 행동(키보드 return) 관리
@@ -53,6 +53,23 @@
 #### if let 구문을 통한 옵셔널 바인딩(memo 참고)
 
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 22 30" src="https://github.com/puretension/SwiftCrafts/assets/106448279/f2a18628-ef42-429f-a0a5-4f86f291e91e">
+
+
+## 6. WarmUp(UIKit) - 2024/01/14~2024/01/15
+- View와 ViewController
+- 오토레이아웃
+- TableView(Delegate, Datasource)
+- NavigationController, Segue(아직 흡수X)
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/8d69742a-b7c2-4d3a-b1b1-e48976e1c4f9">
+
+## 7. VoiceMemo(SwiftUI) - 2024/01/14~
+### 1. Onboarding(01/14~01/15)
+- VoiceMemo App clone with SwiftUI
+- PropertyWrappers가 MVVM에서 어떻게, 왜 쓰이는지
+- Onboarding 구현을 통한 UI, Property Wrappers, NavigationStack
+- 나머지는 [PropertyWrappers.md](https://github.com/puretension/SwiftCrafts/blob/main/voiceMemo/PropertyWrappers.md) 참고
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/19696874-da44-4a0d-994c-0bd971dce3df">
+
 
 
 
