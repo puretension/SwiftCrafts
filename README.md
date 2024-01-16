@@ -70,6 +70,13 @@
 - 나머지는 [PropertyWrappers.md](https://github.com/puretension/SwiftCrafts/blob/main/voiceMemo/PropertyWrappers.md) 참고
 <img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/19696874-da44-4a0d-994c-0bd971dce3df">
 
+### 2. TodoList(01/16~01/17)
+- To do list 구현하기
+- DatePicker를 통한 date, time calendar 설정(graphical 예쁘다)
+- alert(@State-Binding, 삭제/취소)
+- @EnvironmentObject를 포함한 property Wrapper 사용 적응하기
+- Components? [components.md](https://github.com/puretension/SwiftCrafts/blob/main/voiceMemo/components.md) 참고
+<img width="314" alt="Simulator Screenshot - iPhone 15 Pro - 2024-01-14 at 00 21 33" src="https://github.com/puretension/SwiftCrafts/assets/106448279/9ebe1acf-6f94-4966-9057-88e319e52bec">
 
 
 
