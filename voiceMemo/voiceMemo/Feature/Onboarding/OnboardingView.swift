@@ -20,12 +20,15 @@ struct OnboardingView: View {
     //외부 주입 X, 최초 생성 선언시에만 사용
     @StateObject private var pathModel = PathModel()
     @StateObject private var onboardingViewModel = OnboardingViewModel()
+    @StateObject private var todoListViewModel = TodoListViewModel()
     
     var body: some View {
         // TODO: - 화면 전환 구현 필요
-        //    OnboardingContentView(onboardingViewModel: onboardingViewModel)
+//            OnboardingContentView(onboardingViewModel: onboardingViewModel)
         NavigationStack(path: $pathModel.paths) {
-            OnboardingContentView(onboardingViewModel: onboardingViewModel)
+//            OnboardingContentView(onboardingViewModel: onboardingViewModel)
+            TodoListView()
+                .environmentObject(todoListViewModel)
                 .navigationDestination(for: PathType.self)
             {
                 pathType in
@@ -35,8 +38,10 @@ struct OnboardingView: View {
                         .navigationBarBackButtonHidden()
                     
                 case .todoView:
+                    //NavigationStack이기에 TodoListView에서 작성버튼 누르면 TodoView이동, 뒤로가기누르면 TodoListView
                     TodoView()
                         .navigationBarBackButtonHidden()
+                        .environmentObject(todoListViewModel)
                     
                 case .memoView:
                     MemoView()
